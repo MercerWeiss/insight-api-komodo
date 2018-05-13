@@ -2,7 +2,7 @@
   "name": "insight-api-komodo",
   "description": "A Komodo blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://git@github.com/MercerWeiss/insight-api-komodo.git",
+  "repository": "git://github.com/MercerWeiss/insight-api-komodo.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-komodo": "git://git@github.com/MercerWeiss/bitcore-lib-komodo",
-    "bitcore-message-komodo": "git://git@github.com/MercerWeiss/bitcore-message-komodo",
+    "bitcore-lib-komodo": "MercerWeiss/bitcore-lib-komodo",
+    "bitcore-message-komodo": "MercerWeiss/bitcore-message-komodo",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
